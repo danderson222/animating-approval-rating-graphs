@@ -116,6 +116,7 @@ static.plot <- df %>%
         legend.position = "bottom")
 static.plot
 ```
+![](StaticApprovalComparison.png)
 
 My reaction? **Ouch!** This graph is way too cluttered, hard to read and
 making me rethink how to tell the story of each President's first 4
@@ -219,7 +220,6 @@ president_linecharts <- function(x) {
 }
 president_linecharts(df)
 ```
-![](StaticApprovalComparison.png)
 
 #### **Step 5**: Combining the GIFs
 
