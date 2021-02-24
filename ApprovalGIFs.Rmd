@@ -23,7 +23,7 @@ much the American public approved of each of the past 14 Presidents!
 Luckily, R can accomplish this. With the `gganimate` and `magick`
 packages, GIF building is easy, and effective. Let's look at the end
 result first, so I can reel you into making this for yourself.
-![](article/presidential_approval.gif)
+![](presidential_approval.gif)
 
 This GIF shows Trump's approval rating compared to the approval ratings
 of every president in the past 75 years in an individual one-on-one
@@ -279,6 +279,7 @@ presidential_approval
 # Save your new GIF!
 image_write(presidential_approval, path = "presidential_approval.gif")
 ```
+![](presidential_approval.gif)
 
 And there you have it! That is how you **create multiple animated plots
 of data and combine them into one longer GIF.** Feel free to change up
